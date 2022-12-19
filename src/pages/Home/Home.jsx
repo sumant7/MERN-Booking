@@ -5,6 +5,7 @@ import Header from '../../components/Header/Header'
 import Featured from '../../components/Featured/featured'
 import PropertyList from '../../components/PropertyList/PropertyList'
 import FeaturedProperties from '../../components/FeaturedProperties/FeaturedProperties'
+import MailList from '../../components/mailList/MailList'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <PropertyList/>
         <h1 className="homeTitle"> Home Guests Love</h1>
         <FeaturedProperties/>
+        <MailList/>
       </div>
       </div>
   )
